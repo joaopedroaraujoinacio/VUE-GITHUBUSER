@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin-top: 3rem;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #ff00bf;
+    color: #000000;
+  }
+  
+  #app {
+    font-family: 'Ubuntu', sans-serif;
+    min-height: 100vh;
+    max-width: 40rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  img {
+    border: 5px solid #ffffff;
+    border-radius: 80px;
+    display: block;
+    margin: 1rem auto;
+    width: 10rem;
+    height: 10rem;
+  }
+  
+  h1, h2 {
+    color: #000000;
+    margin: 1rem auto .25rem;
+  }
+  
+  h3 {
+    margin: 1rem auto .25rem;
+  }
+  
+  span{
+    display: block;
+    margin: 1rem auto;
+  }
+  
+  input,
+  button {
+    max-width: 20rem;
+    padding: .5rem;
+  }
+  
+  input {
+    background-color: #1c1a1d;
+    border: 2px solid #ffffff;
+    border-radius: .25rem;
+    color: #e5e5e5;
+    margin: 1rem 1rem 1rem 0;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  
+  button {
+    background-color: #47ff5f;
+    border: 2px solid #000000;
+    border-radius: .25rem;
+    color: #1c1a1d;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    filter: brightness(2);
+  }
+  
+  a {
+    color: #f64348;
+  }
